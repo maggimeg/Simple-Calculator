@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #b5dda5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calsi{
+    background-color: rgb(20, 104, 34);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.calsi form input{
+    border: 0cm;
+    outline: rgb(181, 221, 165);
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #cae7bf;
+    font-size: 30px;
+    color: #0a0303;
+    cursor: auto;
+    margin: 10px;
+}
+
+form .screen{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .screen input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+}
